@@ -1,0 +1,35 @@
+# ===================== ASSIGNMENT ========================
+# Understand datatypes (at least 10 in python)
+
+===================== NUMERIC TYPES ========================
+1. int: numbers without decimal points. eg 5, -100
+2. float: numbers with decimal points. eg 3.14, -7.5
+3. complex: numbers with a real and imaginary part. eg 3 + 8k
+
+===================== SEQUENCE TYPES ========================
+4. str: characters closed in '' or "". eg 'ball', "you look 5"
+5. list: ordered, mutable items enclosed in square brackets. eg [3.14, -7.5, "wer5"]
+6. tuple: ordered, immutable items enclosed in parenthesis. eg (3.14, -7.5, "wer5")
+
+===================== MAPPING TYPE ========================
+7. dict: unordered collections of key-value pairs, enclosed in curly braces. eg {'name': 'Alice', 'age': 30}
+
+===================== SET & BOOLEAN TYPE ========================
+8. set: unordered collections of unique items, in curly brackets eg {1, 2, 3, "apple", "banana"}
+9. frozenset: same with set but immutable.
+10. bool: truth values, either true or false.
+
+NB: Immutable means you can't change its values once its created. Immutable stuff are int, float, complex, str,tuple, and frozenset.
+fullname = name + "\n" + lastname
+
+# ===================== ASSIGNMENT ========================
+# 1. learn about bash
+# 2. download and set up Git
+# 3. create account on gitHub
+
+difference btw byte, long, int ,short
+
+it will havv add, sub, mult, div
+
+this is the sum of the two nums : sum etc
+calc that does 4 opperations
