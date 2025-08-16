@@ -33,3 +33,6 @@ it will havv add, sub, mult, div
 
 this is the sum of the two nums : sum etc
 calc that does 4 opperations
+
+# ===================== ASSIGNMENT ========================
+# Make your user select with output they want in the calc app
