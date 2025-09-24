@@ -36,3 +36,7 @@ calc that does 4 opperations
 
 # ===================== ASSIGNMENT ========================
 # Make your user select with output they want in the calc app
+
+# ===================== SELF ASSIGNMENT ========================
+Study how to make child class have init. Learn how to loop through an iterator
+polymorphism
