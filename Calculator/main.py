@@ -30,8 +30,26 @@ def div()
 def mult()
 
 ====================================================
-logicalModule.py
+LogicModule.py
 
+def checkOp()
+    if(op == "add"):
+        functionModule.add()
+    
+    if(op == "sub"):
+        functionModule.sub()
 
+    if(op == "div"):
+        functionModule.div()
 
+    if(op == "mult"):
+        functionModule.mult()
 """
+
+import inputModule
+import logicModule
+import functionModule
+
+while True:
+    logicModule.checkOp()
+
