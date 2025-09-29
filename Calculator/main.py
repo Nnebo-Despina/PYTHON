@@ -46,9 +46,7 @@ def checkOp()
         functionModule.mult()
 """
 
-import inputModule
 import logicModule
-import functionModule
 
 while True:
     logicModule.checkOp()

@@ -23,7 +23,7 @@ def updateTaskName():
             print("Input new task name:")
             newTaskName = input("Name: ")
 
-            tasks[1 - taskIndex]["task"] = newTaskName
+            tasks[taskIndex - 1]["task"] = newTaskName
         except ValueError:
             print("This is not a number! Input task number: ")
             continue
@@ -39,7 +39,7 @@ def markCompleted():
     while True:
         try:
             taskIndex = int(input("Task number: "))
-            tasks[1 - taskIndex]["completed"] = True
+            tasks[taskIndex - 1]["completed"] = True
         except ValueError:
             print("This is not a number! Input task number: ")
             continue
@@ -55,7 +55,7 @@ def deleteCompleted():
     while True:
         try:
             taskIndex = int(input("Task number: "))
-            tasks[1 - taskIndex]["deleted"] = True
+            tasks[taskIndex - 1]["deleted"] = True
         except ValueError:
             print("This is not a number! Input task number: ")
             continue
@@ -70,13 +70,11 @@ def showTask():
     for indiTask in tasks:
         if indiTask["deleted"] == False:
             taskIndex = tasks.index(indiTask) + 1
-            print (
-                f"{taskIndex}. { indiTask["task"] } - Completed({ indiTask["completed"] })"
-            )
+            print (f"{taskIndex}. { indiTask["task"] } - Completed({ indiTask["completed"] })")
         else:
             print
 
-print("Welcome to Task List! \nSponsored by Mr. Majesty, the taecher that gives assignment on impulse😑")
+print("Welcome to Task List! \nSponsored by Mr. Majesty, the teacher that gives assignment on impulse😑")
 print("Select Operation: \n1. Add Task\n2. Update Task Name\n3. Mark Task as Complete\n4. Delete Task\n5. View all Tasks (Bonus by me :)")
 while True:
     try:
